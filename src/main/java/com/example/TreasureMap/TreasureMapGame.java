@@ -35,10 +35,8 @@ public class TreasureMapGame {
         for (Adventurer adventurer : adventurers) {
             String path = adventurer.getPath();
             for (char step : path.toCharArray()) {
-                System.out.println(step);
                 if (step == 'A') {
                     int[] newPosition = adventurerMovementService.move(adventurer.getPosition(), adventurer.getOrientation(), map.getWidth(), map.getHeight());
-                    System.out.println(Arrays.toString(newPosition));
                     handleMove(adventurer, newPosition);
                 } else {
                     adventurer.setOrientation(adventurerMovementService.changeOrientation(adventurer.getOrientation(), step));
