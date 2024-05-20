@@ -10,7 +10,7 @@
 Clonez le dépôt :
 
 ```sh
-git clone https://github.com/abrkgts/TreasureMap.git
+git clone https://github.com/abrkgts/TreasureMapGame.git
 ```
 
 ## Construction
