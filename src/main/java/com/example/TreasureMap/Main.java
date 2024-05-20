@@ -14,8 +14,8 @@ import java.util.List;
 public class Main implements CommandLineRunner {
 
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
-    FileManager fileManager;
-    MapBuilder mapBuilder;
+    FileManager fileManager = new FileManager();
+    MapBuilder mapBuilder = new MapBuilder();
 
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
