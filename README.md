@@ -25,7 +25,7 @@ Cela créera un fichier JAR dans le répertoire `target`.
 
 ## Utilisation
 
-Pour exécuter l'application, utilisez la commande suivante :
+Pour exécuter l'application, utilisez la commande suivante à la racine du projet :
 
 ```sh
 java -jar target/TreasureMap-0.0.1-SNAPSHOT.jar "input.txt"
